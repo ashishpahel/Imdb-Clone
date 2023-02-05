@@ -20,7 +20,7 @@ const HeaderMenu = ({ open, handleClose }) => {
           to={`${routePath.categories}?category=popular`}
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          <MenuItem>Propular</MenuItem>
+          <MenuItem>Popular</MenuItem>
         </Link>
         <Link
           to={`${routePath.categories}?category=toprated`}
